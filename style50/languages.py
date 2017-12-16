@@ -20,7 +20,7 @@ class C(StyleCheck):
         "--convert-tabs", "--indent=spaces=4",
         "--indent-continuation=1", "--indent-switches",
         "--lineend=linux", "--min-conditional-indent=1",
-        "--style=allman"
+        "--style=allman", "--options=none"
     ]
 
     # Match (1) /**/ comments, and (2) // comments.
